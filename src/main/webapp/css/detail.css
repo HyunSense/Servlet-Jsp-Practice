@@ -1,0 +1,21 @@
+   table {
+        width: 800px; height: 40px;
+        border-collapse: collapse;
+        border: 1px solid black;
+    }
+    
+    .tableHead th{
+      border: 1px solid black;
+    }
+    .tableHead td{
+        border: 1px solid black;
+        text-align: center;
+    }
+    .tableBody{
+        height: 500px;
+    }
+
+    .tableBody td:first-child{
+        border: 1px solid black;
+        text-align: center;
+    }
